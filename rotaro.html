@@ -4,7 +4,7 @@
 window.onscroll = function (e) {
 var position  =  window.scrollY;
 var pixels = 2000;
-var degrees  = (a / b) * 360;
+var degrees  = (position / pixels) * 360;
 $("#rotaro").css("-ms-transform","rotate("+degrees+"deg)");
 $("#rotaro").css("-webkit-transform","rotate("+degrees+"deg)");
 $("#rotaro").css("transform","rotate("+degrees+"deg)");
